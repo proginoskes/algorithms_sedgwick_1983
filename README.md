@@ -3,9 +3,12 @@ In this project, I will be systematically reading
 and implementing all algorithms from Robert 
 Sedgewick's 1983 work "Algorithms." I will use 
 C++17, since it balances low-level control with 
-'off-the-shelf' data structures. I will post to 
-this repository five out of every seven days 
-until I've finished the book. 
+'off-the-shelf' data structures. This will also
+give me the opportunity to learn a bit about how
+Pascal and C++ are different, since Sedgwick's
+algorithms are in Pascal for this book. I will 
+post to this repository five out of every seven 
+days until I've finished the book. 
 
 # sections
 

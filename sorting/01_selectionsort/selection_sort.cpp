@@ -1,9 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <time.h>
 # include <algorithm>
 # include <iostream>
 # include <vector>
+
+/*
+    in this script we establish a starting format for 
+    testing future algorithms, possibly for the entire
+    rest of the book. using stl functions allows us to
+    test our results against reliable answers. 
+
+    this script is a selection sort, and uses a random
+    number generator with time as seed to generate 
+    'n' random numbers. no runtime is calculated.
+
+*/
 
 void print_vector(std::vector<int>::iterator begin, std::vector<int>::iterator end){
     std::vector<int>::iterator iter;

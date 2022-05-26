@@ -45,9 +45,9 @@ int bruteSearch(std::string txt, std::string ptrn){
         }
     }while(iter_txt<txt.length()&&iter_ptrn<ptrn.length());
 
-    if(iter_ptrn>=ptrn.length()) return iter_txt - iter_ptrn;
+    if(iter_ptrn>=ptrn.length()) return iter_txt-ptrn.length();
 
-    return iter_txt;
+    return -1;
 
 }
 
